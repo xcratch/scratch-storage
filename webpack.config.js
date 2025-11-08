@@ -32,7 +32,11 @@ const webConfig = baseConfig.clone()
                 type: 'umd2'
             },
             path: path.resolve(__dirname, 'dist', 'web'),
-            clean: false
+            clean: false,
+            // Use 'auto' to let webpack determine the publicPath automatically.
+            // This ensures web worker chunks (like fetch-worker) are loaded correctly
+            // in any deployment context (HTTP, HTTPS, file://, etc.)
+            publicPath: 'auto'
         }
     });
 
