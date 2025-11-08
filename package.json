@@ -1,13 +1,16 @@
 {
-  "name": "scratch-storage",
+  "name": "@xcratch/scratch-storage",
   "version": "5.0.2",
   "description": "Load and store project and asset files for Scratch 3.0",
   "license": "AGPL-3.0-only",
-  "homepage": "https://github.com/scratchfoundation/scratch-storage#readme",
+  "homepage": "https://github.com/xcratch/scratch-storage#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scratchfoundation/scratch-storage.git",
-    "sha": "46d95aee5bff3a1e1fb3ac741a64b878ad5d53e8"
+    "url": "https://github.com/xcratch/scratch-storage.git",
+    "sha": "f75cc44bd09a4d4ea8537b12fb0243a093bf8cf5"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "main": "./dist/node/scratch-storage.js",
   "browser": "./dist/web/scratch-storage.js",
@@ -47,6 +50,8 @@
     "@commitlint/cli": "18.6.1",
     "@commitlint/config-conventional": "18.6.3",
     "@commitlint/travis-cli": "8.3.6",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
     "@types/jest": "29.5.14",
     "babel-loader": "9.2.1",
     "eslint": "9.39.1",
