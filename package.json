@@ -1,13 +1,13 @@
 {
   "name": "@xcratch/scratch-storage",
-  "version": "5.0.2",
+  "version": "5.1.0",
   "description": "Load and store project and asset files for Scratch 3.0",
   "license": "AGPL-3.0-only",
   "homepage": "https://github.com/xcratch/scratch-storage#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/xcratch/scratch-storage.git",
-    "sha": "f75cc44bd09a4d4ea8537b12fb0243a093bf8cf5"
+    "sha": "5d05111a988917da5e79419e52af1f8bad7c1e3b"
   },
   "publishConfig": {
     "access": "public"
